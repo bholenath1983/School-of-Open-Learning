@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="School of Open Learning - UG & PG Programs, Admissions, Exams, Study Material" />
+  <meta name="keywords" content="School of Open Learning, SOL, Distance Education, UG, PG, BA, BCom, MA, MCom, Syllabus, Exam, Study Material" />
+  <meta name="author" content="SOL Admin" />
+  <title>School of Open Learning (SOL)</title>
+  
+  <!-- Bootstrap CDN -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+  <!-- Custom Styles -->
+  <style>
+    body { padding-top: 70px; }
+    .ad-space { background: #f8f9fa; text-align: center; padding: 20px; margin: 20px 0; border: 1px dashed #ccc; }
+    footer { background: #343a40; color: white; padding: 20px 0; text-align: center; }
+  </style>
+
+  <!-- Google AdSense (Replace with your own Ad unit ID) -->
+  <script data-ad-client="ca-pub-XXXXXXXXXXXX" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <a class="navbar-brand" href="#">SOL</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item"><a class="nav-link" href="#programs">Programs</a></li>
+        <li class="nav-item"><a class="nav-link" href="#admission">Admission</a></li>
+        <li class="nav-item"><a class="nav-link" href="#exam">Exams</a></li>
+        <li class="nav-item"><a class="nav-link" href="#docs">Documents</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact Us</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <div class="container text-center">
+    <h1 class="my-4">Welcome to School of Open Learning (SOL)</h1>
+    <p>Distance learning programs for Undergraduate and Postgraduate students.</p>
+  </div>
+
+  <!-- Ad Space -->
+  <div class="container ad-space">
+    <!-- Google AdSense Placeholder -->
+    <ins class="adsbygoogle"
+         style="display:block"
+         data-ad-client="ca-pub-XXXXXXXXXXXX"
+         data-ad-slot="1234567890"
+         data-ad-format="auto"
+         data-full-width-responsive="true"></ins>
+    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+  </div>
+
+  <!-- Programs -->
+  <div class="container" id="programs">
+    <h2>Programs Offered</h2>
+    <div class="form-group">
+      <label for="programType">Select Program:</label>
+      <select class="form-control" id="programType">
+        <option value="">-- Select --</option>
+        <option>UG - BA</option>
+        <option>UG - BCom</option>
+        <option>PG - MCom</option>
+        <option>PG - MA (English)</option>
+        <option>PG - MA (Economics)</option>
+        <option>PG - MA (History)</option>
+        <option>PG - MA (Hindi)</option>
+        <option>PG - MA (Sociology)</option>
+        <option>PG - MA (Marathi)</option>
+        <option>PG - MA (Education)</option>
+        <option>PG - MA (Political Science)</option>
+        <option>PG - MA (Philosophy)</option>
+        <option>PG - MA (Mass Communication)</option>
+      </select>
+    </div>
+  </div>
+
+  <!-- Admission -->
+  <div class="container" id="admission">
+    <h2>Admission Procedure</h2>
+    <p>Follow the online registration steps. Ensure your ABC ID and DBE ID are generated during the process.</p>
+    <ul>
+      <li><strong>ABC ID:</strong> Required for academic records</li>
+      <li><strong>DBE ID:</strong> Unique ID for Distance Based Education</li>
+    </ul>
+  </div>
+
+  <!-- Syllabus & Materials -->
+  <div class="container">
+    <h2>Syllabus & Study Material</h2>
+    <p>Access updated syllabus and digital study materials from our portal.</p>
+    <ul>
+      <li><a href="#">Download Syllabus</a></li>
+      <li><a href="#">Study Materials</a></li>
+    </ul>
+  </div>
+
+  <!-- Old Question Papers -->
+  <div class="container">
+    <h2>Old Question Papers & Formats</h2>
+    <ul>
+      <li><a href="#">Question Paper Formats</a></li>
+      <li><a href="#">Download Old Question Papers</a></li>
+    </ul>
+  </div>
+
+  <!-- Exams -->
+  <div class="container" id="exam">
+    <h2>Exam Section</h2>
+    <ul>
+      <li><a href="#">Exam Form</a></li>
+      <li><a href="#">Download Hall Ticket</a></li>
+      <li><a href="#">Check Results</a></li>
+    </ul>
+  </div>
+
+  <!-- Documents -->
+  <div class="container" id="docs">
+    <h2>Other Documents</h2>
+    <ul>
+      <li><a href="#">Transfer Certificate</a></li>
+      <li><a href="#">Migration Certificate</a></li>
+      <li><a href="#">Bonafide Certificate</a></li>
+    </ul>
+  </div>
+
+  <!-- Contact -->
+  <div class="container" id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: <a href="mailto:info@sol.edu">info@sol.edu</a></p>
+    <p>Phone: +91-9999999999</p>
+    <p>Address: School of Open Learning, Your City, India</p>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 School of Open Learning. All rights reserved.</p>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+
