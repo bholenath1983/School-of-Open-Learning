@@ -1,1 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="School of Open Learning - Savitribai Phule Pune University">
+    <title>SOL - School of Open Learning</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            background-color: #f5f5f5;
+        }
+
+        .header {
+            background: #003366;
+            color: white;
+            padding: 1.5rem;
+            text-align: center;
+        }
+
+        .nav {
+            background: #004080;
+            padding: 1rem;
+        }
+
+        .nav-menu {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            flex-wrap: wrap;
+        }
+
+        .nav-menu li {
+            margin: 0 1.5rem;
+        }
+
+        .nav-menu a {
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .main-container {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+
+        .card {
+            background: white;
+            border-radius: 10px;
+            padding: 1.5rem;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card h2 {
+            color: #003366;
+            margin-bottom: 1rem;
+            border-bottom: 2px solid #003366;
+            padding-bottom: 0.5rem;
+        }
+
+        .link-list {
+            list-style: none;
+        }
+
+        .link-list li {
+            margin: 0.8rem 0;
+        }
+
+        .link-list a {
+            color: #004080;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+        }
+
+        .link-list a:hover {
+            color: #00264d;
+            text-decoration: underline;
+        }
+
+        .link-list i {
+            margin-right: 0.5rem;
+            color: #003366;
+        }
+
+        .contact-section {
+            background: white;
+            padding: 2rem;
+            margin: 2rem auto;
+            max-width: 1200px;
+            border-radius: 10px;
+        }
+
+        .footer {
+            background: #003366;
+            color: white;
+            text-align: center;
+            padding: 1.5rem;
+            margin-top: 2rem;
+        }
+
+        @media (max-width: 768px) {
+            .nav-menu {
+                flex-direction: column;
+                text-align: center;
+            }
+            
+            .nav-menu li {
+                margin: 0.5rem 0;
+            }
+            
+            .main-container {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>School of Open Learning</h1>
+        <p>Savitribai Phule Pune University</p>
+    </header>
+
+    <nav class="nav">
+        <ul class="nav-menu">
+            <li><a href="#admissions">Admissions</a></li>
+            <li><a href="#study-material">Study Material</a></li>
+            <li><a href="#exams">Exams</a></li>
+            <li><a href="#documents">Documents</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main class="main-container">
+        <!-- Admissions Section -->
+        <div class="card" id="admissions">
+            <h2><i class="fas fa-user-graduate"></i> Admissions</h2>
+            <ul class="link-list">
+                <li><a href="https://sppu.digitaluniversity.ac/admissions" target="_blank"><i class="fas fa-link"></i>Admission Procedure</a></li>
+                <li><a href="https://sppuoa.digitaluniversity.ac/ScheduleDetails" target="_blank"><i class="fas fa-calendar-alt"></i>Admission Schedule</a></li>
+                <li><a href="https://www.youtube.com/watch?v=RAHj5oNbqIg" target="_blank"><i class="fab fa-youtube"></i>Admission Help Tutorial</a></li>
+                <li><a href="https://sppuoa.digitaluniversity.ac/esuvidha/instructionFinal/SavitribaiPhulePune.pdf" target="_blank"><i class="fas fa-file-pdf"></i>Admission Help Presentation</a></li>
+                <li><a href="https://sppuoa.digitaluniversity.ac/ScheduleCollegeList?ppid=39" target="_blank"><i class="fas fa-university"></i>Coursewise Admission Centers</a></li>
+            </ul>
+        </div>
+
+        <!-- Student Profile Section -->
+        <div class="card">
+            <h2><i class="fas fa-user-circle"></i> Student Profile</h2>
+            <ul class="link-list">
+                <li><a href="https://sppuapp.digitaluniversity.ac/Login.aspx?IsCollege=%27N%27" target="_blank"><i class="fas fa-sign-in-alt"></i>Student Login</a></li>
+            </ul>
+        </div>
+
+        <!-- Study Material Section -->
+        <div class="card" id="study-material">
+            <h2><i class="fas fa-book-open"></i> Study Material</h2>
+            <ul class="link-list">
+                <li><a href="http://unipune.ac.in/SOL/Syllabus.html" target="_blank"><i class="fas fa-file-alt"></i>Syllabus</a></li>
+                <li><a href="#online-resources" class="submenu-toggle"><i class="fas fa-link"></i>Online Resources</a>
+                    <ul class="submenu">
+                        <li><a href="https://storage.googleapis.com/uniquecourses/online.html" target="_blank">SWAYAM</a></li>
+                       <li><a href="https://storage.googleapis.com/uniquecourses/online.html" class="text-blue-600 hover:underline">SWAYAM Online Courses</a></li>
+                       <li><a href="http://cec.nic.in/" class="text-blue-600 hover:underline">e-Content UG Subjects</a></li>
+                       <li><a href="https://www.swayamprabha.gov.in/" class="text-blue-600 hover:underline">SWAYAMPRABHA</a></li>
+                       <li><a href="https://www.youtube.com/user/cecedusat" class="text-blue-600 hover:underline">CEC-UGC YouTube</a></li>
+                       <li><a href="https://ndl.iitkgp.ac.in/" class="text-blue-600 hover:underline">National Digital Library</a></li>
+                       <li><a href="https://shodhganga.inflibnet.ac.in/" class="text-blue-600 hover:underline">Shodhganga</a></li>
+                       <li><a href="https://ess.inflibnet.ac.in/" class="text-blue-600 hover:underline">e-Shodh Sindhu</a></li>
+                      <li><a href="https://vidwan.inflibnet.ac.in/" class="text-blue-600 hover:underline">Vidwan</a></li>
+               <!-- Add-on Subjects -->
+                     <h3 class="text-lg mt-4 font-medium">Add-on Subjects</h3>
+                     <ul class="list-disc list-inside">
+                     <li><a href="https://drive.google.com/file/d/1qYz_21iKoCUKvqzOavOYGS5kEnjnEu2W/view?usp=sharing" class="text-blue-600 hover:underline">Indian Constitution</a></li>
+                     <li><a href="https://drive.google.com/file/d/1_RpptJbJ-7C-04Ti4iNaWPUG0DjBztzn/view?usp=sharing" class="text-blue-600 hover:underline">Human Rights</a></li>
+                     <li><a href="https://drive.google.com/file/d/1sUDR8efYze1yg9KT-pv4m_CEO8_bHGS1/view?usp=sharing" class="text-blue-600 hover:underline">Democracy</a></li>
+                     <li><a href="https://drive.google.com/file/d/1ZzDOP0Qf6xQHZWCaAVfsQE8ISoYHFOIz/view?usp=sharing" class="text-blue-600 hover:underline">Cyber Security</a></li>
+                   </ul>
+                </li>
+            </ul>
+        </div>
+
+            <!-- Exam Section -->
+        <div class="card" id="exams">
+            <h2><i class="fas fa-file-alt"></i> Exams</h2>
+            <ul class="link-list">
+                <li><a href="http://collegecirculars.unipune.ac.in/sites/examdocs/SODL%20Question%20Papers%20Formats/Forms/AllItems.aspx" target="_blank"><i class="fas fa-file-pdf"></i>Question Paper Formats</a></li>
+                <li class="dropdown">
+                    <a href="#old-papers"><i class="fas fa-archive"></i>Old Question Papers</a>
+                    <div class="dropdown-content">
+                         <li><a href="http://collegecirculars.unipune.ac.in/sites/examdocs/SODL%20Question%20Papers%20Formats/Forms/AllItems.aspx" class="text-blue-600 hover:underline">Formats</a></li>
+                         <li><a href="http://collegecirculars.unipune.ac.in/sites/examdocs/November%20%202024/Forms/AllItems.aspx" class="text-blue-600 hover:underline">November 2024</a></li>
+                         <li><a href="http://collegecirculars.unipune.ac.in/sites/examdocs/April2024/Forms/AllItems.aspx" class="text-blue-600 hover:underline">April 2024</a></li>
+                         <li><a href="http://collegecirculars.unipune.ac.in/sites/examdocs/OCTOBER%20%202023/Forms/AllItems.aspx" class="text-blue-600 hover:underline">October 2023</a></li>
+        <li><a href="http://collegecirculars.unipune.ac.in/sites/examdocs/APRIL%20%202023/Forms/AllItems.aspx" class="text-blue-600 hover:underline">April 2023</a></li>
+        <li><a href="http://collegecirculars.unipune.ac.in/sites/examdocs/OCT%20%202022/Forms/AllItems.aspx" class="text-blue-600 hover:underline">October 2022</a></li>
+        <li><a href="http://collegecirculars.unipune.ac.in/sites/examdocs/APRIL2022/Forms/AllItems.aspx" class="text-blue-600 hover:unde
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <!-- Documents Section -->
+        <div class="card" id="documents">
+            <h2><i class="fas fa-file-contract"></i> Documents</h2>
+            <ul class="link-list">
+                <li><a href="http://unipune.ac.in/sol/pdf/pdf2024/Bonafide%20Certificate%20Circular_21.082020_13042024.pdf" class="text-blue-600 hover:underline">Bonafide Certificate Circular</a></li>
+        <li><a href="http://unipune.ac.in/sol/pdf/pdf2024/Application%20of%20Bonafide%20Certificate_21.082020_13042024.pdf" class="text-blue-600 hover:underline">Bonafide Application</a></li>
+        <li><a href="http://unipune.ac.in/SOL/pdf/pdf2024/TC%20Notice_13042024.pdf" class="text-blue-600 hover:underline">Transfer Certificate Notice</a></li>
+        <li><a href="http://unipune.ac.in/SOL/pdf/pdf2024/TC%20Form_13042024.pdf" class="text-blue-600 hover:underline">Transfer Certificate Form</a></li>
+        <li><a href="https://sim.unipune.ac.in/SIM_APP/Account/CreateAccount" class="text-blue-600 hover:underline">Migration Certificate (Create Account)</a></li>
+        <li><a href="https://sim.unipune.ac.in/SIM_APP/" class="text-blue-600 hover:underline">Migration Portal</a></li>
+        <li><a href="https://sps.unipune.ac.in/app/" class="text-blue-600 hover:underline">Degree Certificate</a></li>
+            </ul>
+        </div>
+    </main>
+
+        <!-- Contact Section -->
+    <section class="contact-section" id="contact">
+        <h2><i class="fas fa-envelope"></i> Contact Us</h2>
+        <div class="contact-info">
+            <p><strong>Email:</strong> <a href="mailto:student.sol@unipune.ac.in">student.sol@unipune.ac.in</a></p>
+            <p><strong>Address:</strong><br>
+            School of Open Learning (SOL),<br>
+            IDS Building, Near SET Guest House,<br>
+            IUCAA Road, Savitribai Phule Pune University,<br>
+            Pune-411007.</p>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2023 School of Open Learning. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        document.querySelector('.nav-menu').addEventListener('click', function() {
+            if (window.innerWidth <= 768) {
+                this.classList.toggle('active');
+            }
+        });
+
+        // Dropdown functionality
+        document.querySelectorAll('.submenu-toggle').forEach(item => {
+            item.addEventListener('click', function(e) {
+                e.preventDefault();
+                this.nextElementSibling.classList.toggle('show');
+            });
+        });
+    </script>
+</body>
+</html>
 
