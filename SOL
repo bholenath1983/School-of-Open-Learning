@@ -108,6 +108,9 @@
     <ul>
       <li><a href="#">Question Paper Formats</a></li>
       <li><a href="#">Download Old Question Papers</a></li>
+      <li><a href="#">Online Exam Form Submission</a></li>
+      <li><a href="#">Download Examination Hall Ticket</a></li>
+      <li><a href="#">Check out the Results</a></li>
     </ul>
   </div>
 
