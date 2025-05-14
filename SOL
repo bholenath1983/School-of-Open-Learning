@@ -105,6 +105,7 @@
   <!-- Old Question Papers -->
   <div class="container">
     <h2>Old Question Papers & Formats</h2>
+    <h2>Important Links</h2>
     <ul>
       <li><a href="#">Question Paper Formats</a></li>
       <li><a href="#">Download Old Question Papers</a></li>
