@@ -36,7 +36,7 @@
         <li class="nav-item"><a class="nav-link" href="#admission">Admission</a></li>
         <li class="nav-item"><a class="nav-link" href="#syllabus">Syllabus</a></li>
         <li class="nav-item"><a class="nav-link" href="#exam">Exams</a></li>
-        <li class="nav-item"><a class="nav-link" href="#docs">Documents</a></li>
+        <li class="nav-item"><a class="nav-link" href="#certificates">Certificates</a></li>
         <li class="nav-item"><a class="nav-link" href="#contact Us">Contact Us</a></li>
         <li class="nav-item"><a class="nav-link" href="#FAQ">FAQ's</a></li>
         <li class="nav-item"><a class="nav-link" href="#Privacy-Policy">Privacy Policy</a></li>
