@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="School of Open Learning (SOL) - UG & PG Programs, Admissions, Exams, Study Material" />
-  <meta name="keywords" content="School of Open Learning, sppu SOL, School of open learning pune, School of learning, Pune distance education, Open distance learning,  Open university in pune, Open distance learning University, sol ac.in, online distance learning, open learning university, sol.ac.in, distance graduation, pune open university, Distance Learning, ssracs-sol, SOL, Distance Education, UG, PG, BA, BCom, MA, MCom, Syllabus, Exam, Study Material" />
+  <meta name="description" content="School of Open Learning (SOL) - UG & PG Programs, Admissions, Exams, Study Material, ssracs-sol.vercel.app/" />
+  <meta name="keywords" content="School of Open Learning, ssracs-sol.vercel.app/, sppu SOL, School of open learning pune, School of learning, Pune distance education, Open distance learning,  Open university in pune, Open distance learning University, sol ac.in, online distance learning, open learning university, sol.ac.in, distance graduation, pune open university, Distance Learning, ssracs-sol, SOL, Distance Education, UG, PG, BA, BCom, MA, MCom, Syllabus, Exam, Study Material" />
   <meta name="author" content="SOL Admin" />
   <title>School of Open Learning (SOL)</title>
   
