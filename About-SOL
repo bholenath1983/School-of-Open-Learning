@@ -1,1 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>School of Open Learning (SOL)</title>
+    <style>
+        body  {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .header {
+            text-align: center;
+	  text-justify: inter-word;
+            justified-paragraph;
+	    margin-bottom: 30px;
+        }
+        h1 {
+            color: #2c3e50;
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
+        h2 {
+            color: #3498db;
+            font-size: 24px;
+            margin-top: 0;
+        }
+        h3 {
+            color: #27ae60;
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+        .content-section {
+            margin-bottom: 25px;
+        }
+        strong {
+            font-weight: bold;
+        }
+        ul {
+            margin-top: 10px;
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+	    <div class="center-image">
+                <img src="Savitribai-Phule.png" alt="Savitribai Phule Pune University">
+            </div>
+        <h1>School of Open Learning (SOL)</h1>
+        <p><strong>Affiliated with Savitribai Phule Pune University (SPPU)</strong></p>
+    </div>
+
+	<div class="justified-text">
+           <p><strong>The School of Open Learning (SOL)</strong>, established in 2018, provides inclusive, affordable, and flexible education. As a pioneering institution in School Open and Distance Learning (SODL) in India, SOL empowers learners from all walks of life. Designed to break traditional education barriers, SOL caters to working professionals, rural students, and those who couldn't complete formal education earlier.</p>
+    </div>
+
+    <div class="content-section">
+        <h3>About SOL</h3>
+        <p><strong>School of Open Learning (SOL) System</strong></p>
+        <ul>
+             <li>Flexible education where learners and teachers need not be present at the same time or place.</li>
+             <li>Allows for flexible timing, teaching methods, and admission criteria while ensuring quality education.</li>
+             <li>Ideal for those unable to attend traditional full-time college due to personal or professional commitments.</li>
+             <li>This system is particularly beneficial for working professionals, homemakers, and individuals in remote areas who cannot attend regular college.</li>
+        </ul>
+    </div>
+
+    <div class="content-section">
+        <h3>Support for Incomplete Education Under SOL</h3> 
+        <ul>
+            <li>Designed to assist individuals who could not complete their education earlier.</li>
+            <li>Provides a second chance to gain academic qualifications and enhance career opportunities.</li>
+        </ul>
+    </div>
+
+ 	<div class="content-section">           
+	<h3>Affordable Education Under SOL</h3>
+            <ul>
+                <li>Low-cost education with no tuition fees.</li>
+                <li>Exam fees and study materials included.</li>
+                <li>Increases access for students from economically weaker sections.</li>
+            </ul>
+ 	</div>
+
+	<div class="content-section">               
+	<h3>Courses Offered Under SOL</h3>
+            <ul>
+                <li>Undergraduate and Postgraduate programs in Arts and Commerce.</li>
+                <li>Courses are aligned with academic and professional standards.</li>
+            </ul>
+	</div>
+            
+	<div class="content-section"> 
+	<h3>Medium of Instruction</h3>
+            <ul>
+                <li>Courses available in both Marathi and English.</li>
+                <li>Enhances inclusivity and regional accessibility.</li>
+            </ul>
+	</div>
+
+	<div class="content-section"> 
+        <h3>Study Materials and Centres</h3>
+            <ul>
+                <li>Printed materials distributed to students via study centres.</li>
+                <li>Centres are located within university jurisdiction and equipped with necessary infrastructure.</li>
+            </ul>
+	</div>
+            
+	<div class="content-section"> 
+	<h3>Role of Study Centres Under SOL</h3>
+            <ul>
+                <li>Serve as local support and contact points for students.</li>
+                <li>Provide academic guidance, mentorship, and Personal Contact Programs (PCPs).</li>
+                <li>Operate under strict SoL guidelines to maintain consistency and quality.</li>
+            </ul>
+	</div>
+
+	<div class="content-section">             
+	<h3>Qualified Faculty Under SOL</h3>
+            <ul>
+                <li>All centres are staffed with experienced and qualified instructors.</li>
+                <li>Faculty plays a key role in student mentoring and academic support.</li>
+            </ul>
+	</div>
+
+	<div class="content-section">             
+	<h3>Administrative and Academic Support Under SOL</h3>
+            <ul>
+                <li>Dedicated teams on the university campus to assist students with queries.</li>
+                <li>Support students throughout academic processes and beyond.</li>
+            </ul>
+	</div>
+
+	<div class="content-section">             
+	<h3>Lifelong Learning and Skill Development Under SOL</h3>
+            <ul>
+                <li>Encourages continuing education for working professionals and lifelong learners.</li>
+                <li>Supports knowledge upgrading without compromising on jobs or responsibilities.</li>
+            </ul>
+	</div>
+
+	<div class="content-section">             
+	<h3>Outreach to Disadvantaged Areas</h3>
+            <ul>
+                <li>Focused on providing education to underserved and remote areas.</li>
+                <li>Works to reduce educational disparities and improve access.</li>
+            </ul>
+	
+    <img src="Pune-University-image.png" 
+         alt="Pune University image"
+         class="centered-text"
+         width="750"
+         height="250">
+<h2 style="text-align: center;">Pune University, School of Open Learning (sol)</h2>
+    
+<div class="justified-paragraph">
+		 <p>The School of Open Learning (SOL) revolutionizes education accessibility through its streamlined digital ecosystem. The <strong>SOL Login</strong> portal provides seamless access to academic resources and student dashboards, while the simplified <strong>SOL Admission</strong> process enables hassle-free enrollment for learners across diverse backgrounds. Students efficiently download their <strong>SOL Hall Ticket/SOL Admit Card</strong> online for exam participation, and timely <strong>SOL Result</strong> declarations ensure quick academic progression tracking. By integrating technology with flexible education frameworks, SOL empowers learners to balance their studies with personal and professional commitments, reaffirming its commitment to inclusive, quality education for all.</p>
+          </div>
+    </div>
+</section>
+            <div class="d-flex justify-content-center gap-3">
+            </div>
+        </div>
+    </section>
+</body>
+</html>
 
