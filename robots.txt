@@ -1,0 +1,22 @@
+Create a "User-agent: *
+Allow: /$
+Allow: /about
+Allow: /courses
+Allow: /contact
+Allow: /resources
+Allow: /news
+Disallow: /admin/
+Disallow: /api/
+Disallow: /account/
+Disallow: /dashboard/
+Disallow: /private/
+Disallow: /tmp/
+Disallow: /test/
+Disallow: /server/
+Disallow: /cgi-bin/
+Disallow: /*.json$
+Disallow: /*.php$
+Disallow: /?*
+Disallow: /*/edit$
+
+Sitemap: https://ssracs-sol.vercel.app/sitemap.xml"
