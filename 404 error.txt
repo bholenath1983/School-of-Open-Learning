@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Not Found | SSRACS-SOL</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f8f9fa;
+            color: #343a40;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            text-align: center;
+        }
+        .container {
+            max-width: 600px;
+            padding: 2rem;
+        }
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            color: #dc3545;
+        }
+        h2 {
+            font-size: 1.5rem;
+            margin-bottom: 1.5rem;
+            font-weight: normal;
+        }
+        p {
+            margin-bottom: 2rem;
+            line-height: 1.6;
+        }
+        a {
+            color: #007bff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .btn {
+            display: inline-block;
+            background-color: #007bff;
+            color: white;
+            padding: 0.75rem 1.5rem;
+            border-radius: 0.3rem;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+        .btn:hover {
+            background-color: #0056b3;
+            text-decoration: none;
+        }
+        .logo {
+            margin-bottom: 2rem;
+            max-width: 150px;
+        }
+        @media (max-width: 768px) {
+            .container {
+                padding: 1rem;
+            }
+            h1 {
+                font-size: 2rem;
+            }
+            h2 {
+                font-size: 1.2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Replace with your logo if available -->
+        <div class="logo">
+            <a href="https://ssracs-sol.vercel.app/">
+                <svg width="150" height="50" viewBox="0 0 150 50" xmlns="http://www.w3.org/2000/svg">
+                    <text x="0" y="30" font-family="Arial" font-size="24" fill="#007bff">SSRACS-SOL</text>
+                </svg>
+            </a>
+        </div>
+        
+        <h1>404</h1>
+        <h2>Page Not Found</h2>
+        <p>We're sorry, the page you're looking for doesn't exist or has been moved.</p>
+        <p>You might want to check the URL for typos or <a href="https://ssracs-sol.vercel.app/">return to our homepage</a>.</p>
+        
+        <a href="https://ssracs-sol.vercel.app/" class="btn">Go to Homepage</a>
+    </div>
+</body>
+</html>
