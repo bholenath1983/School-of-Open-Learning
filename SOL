@@ -18,7 +18,7 @@
   </style>
 
   <!-- Google AdSense (Replace with your own Ad unit ID) -->
-  <script data-ad-client="ca-app-pub-4132155446158502/6655767016" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  <script data-ad-client="ca-app-pub-4132155446158502/8545708385" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 </head>
 
 <body>
@@ -55,7 +55,7 @@
     <!-- Google AdSense Placeholder -->
     <ins class="adsbygoogle"
          style="display:block"
-         data-ad-client="ca-app-pub-4132155446158502/6772458726"
+         data-ad-client="ca-app-pub-4132155446158502/8545708385"
          data-ad-slot="1234567890"
          data-ad-format="auto"
          data-full-width-responsive="true"></ins>
